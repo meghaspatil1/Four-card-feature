@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/meghaspatil1/Four-card-feature](https://your-solution-url.com)
+- Live Site URL: [https://meghaspatil1.github.io/Four-card-feature/](https://your-live-site-url.com)
 
 ## My process
 
@@ -54,7 +54,5 @@ I learned the way of using flex and to set a mobileview,gained a good idea and g
 As per the present fow need more grip on flex and media.
 
 ## Author
-
-- Website - [Megha S Patil](https://www.your-site.com)
 - Frontend Mentor - [@meghapatil1](https://www.frontendmentor.io/profile/meghapatil1)
 
