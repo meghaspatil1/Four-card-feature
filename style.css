@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Montserrat:wght@400;700&family=Outfit:wght@400;700&family=Overpass:wght@700&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.title{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+        text-align: center;
+        span{
+            font-size: 2rem;
+            font-weight: 400;
+            color: hsl(229, 6%, 66%);
+            }
+        h1{font-size: 2rem;
+            color: hsl(234, 12%, 34%);
+            font-weight: 600;}
+        p{max-width: 550px;
+          font-weight: 200;
+          color: hsl(229, 6%, 66%);}
+    }   
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    width: 350px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    border-top: 5px solid;
+    .img{
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            height: 50px;
+        }
+    }
+}
+h4{ color: hsl(234, 12%, 34%);}
+p{ color: hsl(229, 6%, 66%);
+    font-weight: 200;}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Supervisor{ border-color: hsl(180, 62%, 55%);}
+.Builder{border-color: hsl(0, 78%, 62%);}
+.Karma{border-color: hsl(34, 97%, 64%);}
+.Calculator{border-color:hsl(212, 86%, 64%);}
+
+
+@media(max-width:1080px){
+    body{padding: 80px;}
+    .flex1.card{max-width: 300px;}
+}
+@media(max-width:960px){
+    body{padding: 40px;}
+    .flex1.card{max-width: 240px;}
+}
+@media (max-width: 762px) {
+    body {padding: 40px; }
+        .flex1 {
+          flex-direction: column;
+        }
+        .flex1 .card {
+          max-width: 400px;
+        }
+      }
+      
+@media (max-width: 762px) {
+    .flex1 .card{
+          max-width: 300px;
+    }
+}
+
